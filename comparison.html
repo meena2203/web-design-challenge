@@ -45,52 +45,48 @@
     <!-- End of navbar -->
 
     <!-- Start of 'Comparison' container -->
-    <div class="col-lg-12 col-md-12">
-      <div class="box bg-white my-4 p-4">
-        <h2 class="title text-left">Comparison: Lattitude vs X</h2>
-        <hr>
-        <p>Click any plot to get in-deapth analysis</p>
-
-        <!-- Create 'first row' to hold two plots -->
-        <div class="row">
-          <div class="col-6">
-            <div class="title text-center">Latitude vs. Max Temperature</div>
-            <a href="visualizations/temp.html">
-              <img class="rounded img-fluid" src="assets/images/Fig1.png" alt="Max Temperature Plot">
-            </a>
+    <div class="container bg-grey">        
+      <div class="col-lg-12 col-md-12">
+        <div class="box bg-white ms-2 my-4 p-4">
+          <h2 class="title text-left">Comparison: Latitude vs X</h2>
+          <hr>
+          <p>
+            Click any plot to get an in-depth analysis.
+          </p>
+          <!-- Create 'first row' to hold two plots -->
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="title text-center">Latitude vs. Max Temperature</div>
+              <a href="visualizations/temp.html">
+                <img class="rounded img-fluid" src="assets/images/Fig1.png" alt="Max Temperature Plot">
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="title text-center">Latitude vs. Humidity</div>
+              <a href="visualizations/humidity.html">
+                <img class="rounded img-fluid" src="assets/images/Fig2.png" alt="Humidity Plot">
+              </a>
+            </div>
           </div>
-          <div class="col-6">
-            <div class="title text-center">Latitude vs. Humidity</div>
-            <a href="visualizations/humidity.html">
-              <img class="rounded img-fluid" src="assets/images/Fig2.png" alt="Humidity Plot">
-            </a>
+          <!-- Create 'second row' to hold remaining two plots -->
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="title text-center">Latitude vs. Cloudiness</div>
+              <a href="visualizations/cloudiness.html">
+                <img class="rounded img-fluid" src="assets/images/Fig3.png" alt="Cloudiness Plot">
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="title text-center">Latitude vs. Wind Speed</div>
+              <a href="visualizations/wind.html">
+                <img class="rounded img-fluid" src="assets/images/Fig4.png" alt="Wind Speed Plot">
+              </a>
+            </div>
           </div>
         </div>
-        <!-- Create 'second row' to hold remaining two plots -->
-        <div class="row">
-          <div class="col-6">
-            <div class="title text-center">Latitude vs. Cloudiness</div>
-            <a href="visualizations/cloudiness.html">
-              <img class="rounded img-fluid" src="assets/images/Fig3.png" alt="Cloudiness Plot">
-            </a>
-          </div>
-          <div class="col-6">
-            <div class="title text-center">Latitude vs. Wind Speed</div>
-            <a href="visualizations/wind.html">
-              <img class="rounded img-fluid" src="assets/images/Fig4.png" alt="Wind Speed Plot">
-            </a>
-          </div>
-        </div>
-      </div>
+    </div>
   </div>
-</div>
-<!-- End of 'Visualization' container -->
-
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
-
+  <!-- End of 'Comparison' container -->
+  </div>
+</body>
 </html>
