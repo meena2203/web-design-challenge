@@ -16,6 +16,8 @@ Landing page  has the following components:
   * Page is responsive when the window is reduced in size
   * An explaination (summary) of the project  
 
+  ![Landing Page Large](assets/screenshots/Landing_page_lg.png)
+
 ### Visualization Pages
 Visualization page for each of the following:
   * latitude vs. max temperature
