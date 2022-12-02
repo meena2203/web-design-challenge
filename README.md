@@ -17,6 +17,7 @@ Landing page  has the following components:
   * An explaination (summary) of the project  
 
   ![Landing Page Large](assets/screenshots/Landing_page_lg.png)
+  ![Landing Page Small](assets/screenshots/Landing_page_sm.png)
 
 ### Visualization Pages
 Visualization page for each of the following:
@@ -35,6 +36,9 @@ Every visualization page has the following components:
   * Page is responsive when the window is reduced in size
   * Includes a paragraph of text describing the plot  
 
+![Visualization Page Large](assets/screenshots/Visualization_page_lg.png)
+![Visualization Page Small](assets/screenshots/Visualization_page_sm.png)
+
 ### Comparison Page 
 Comparison page has the following components:
   * A navigation bar
@@ -42,6 +46,10 @@ Comparison page has the following components:
   * Uses Bootstrap grid for visualization
   * Images are responsive (2x2 on large screens and 4x1 on small screens)
   * All images link to their respective visualization page
+
+![Comparison Page Large](assets/screenshots/Comparison_page_lg.png)
+![Comparison Page Small](assets/screenshots/Comparison_page_sm.png)
+
   
 ### Data Page
 Data page has the following components:
@@ -50,6 +58,9 @@ Data page has the following components:
   * The table is responsive and stays inside a container when the page is reduced in size 
   * The table has all 10 columns (City_ID, City, Country, Date, Latitude, Longitude, Cloudiness, Humidity, Max Temperature, Wind Speed) 
   * The CSV data file used to produce the data page is included in the submission on GitHub in a Resources folder
+
+![Data Page Large](assets/screenshots/Data_page_lg.png)
+![Data Page Small](assets/screenshots/Data_page_sm.png)
   
 ## Navbar
 Navbar has the following components:
@@ -58,7 +69,9 @@ Navbar has the following components:
   * All links direct to the respective page 
   * Navbar has a working dropdown with links to plot pages
   * Navbar is on every page 
-  * Navbar collapses when the window is reduced in size and button works to make nav reappear 
+  * Navbar collapses when the window is reduced in size and button works to make nav reappear
+
+![Navbar Page Large](assets/screenshots/Navbar_page_lg.png)
   
 ## File Organization and Structure 
 Submitted files include the following structure:
@@ -66,6 +79,7 @@ Submitted files include the following structure:
   * An assets folder contains the css and images folders 
   * CSS file(s) are stored within the css folder 
   * Plot images are stored within the images folder 
+  * Screenshots  are stored within the images folder
   * index.html, comparison.html, and data.html are stored in the parent directory
   
 ## References
