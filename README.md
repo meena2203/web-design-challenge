@@ -71,7 +71,8 @@ Navbar has the following components:
   * Navbar is on every page 
   * Navbar collapses when the window is reduced in size and button works to make nav reappear
 
-![Navbar Page Large](assets/screenshots/Navbar_page_lg.png)
+![Navbar Large](assets/screenshots/Navbar_lg.png)
+![Navbar Small](assets/screenshots/Navbar_sm.png)
   
 ## File Organization and Structure 
 Submitted files include the following structure:
@@ -79,7 +80,7 @@ Submitted files include the following structure:
   * An assets folder contains the css and images folders 
   * CSS file(s) are stored within the css folder 
   * Plot images are stored within the images folder 
-  * Screenshots  are stored within the images folder
+  * Screenshots  are stored within the assets folder
   * index.html, comparison.html, and data.html are stored in the parent directory
   
 ## References

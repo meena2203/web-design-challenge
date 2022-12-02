@@ -16,29 +16,41 @@
   </head>
   <body>
     <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand rounded ms-2 p-1 text-white fw-bold" href="../index.html">LATITUDE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <!-- Landing page ('Latitude') tab to left end-->
+        <a class="navbar-brand rounded ms-2 p-1 text-white fw-bold" href="../index.html">LATITUDE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Plots</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../comparison.html">Comparison</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-2" href="../data.html">Data</a>
-          </li>
-        </ul>
+        </button>        
+        
+          <!-- Collapsable Tabs to right end-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            
+            <!-- Dropdown tab -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+
+            <!-- Link tabs -->
+            <li class="nav-item">
+              <a class="nav-link" href="../comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="../data.html">Data</a>
+            </li>
+          </ul>
+          </div>          
       </div>
     </nav>
     <!-- End of navbar -->
